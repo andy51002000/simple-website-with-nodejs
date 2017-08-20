@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>MySimple</title>
+	<!-- Bootstrap CSS -->
+	<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+	<link href="/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+	<style>
+		body {
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+
+		.container {
+			width: 960px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+				<a class="brand" href="/">MySimple</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li class="active"><a href="/">Home</a></li>
+						<li><a href="/login">Login</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="container" class="container">
+		<%- body %>
+			<hr />
+			<footer>
+				<p>
+					<a href="https://andy51002000.blogspot.tw" target="_blank">Andy</a> 2017
+				</p>
+			</footer>
+	</div>
+	<script src="/javascripts/jquery.js"></script>
+	<script src="/javascripts/bootstrap.js"></script>
+</body>
+
+</html>

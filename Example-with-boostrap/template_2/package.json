@@ -1,0 +1,16 @@
+{
+  "name": "node-web-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myserver.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-partials": "^0.3.0",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {},
+  "author": "Andy Lai",
+  "license": "ISC"
+}
